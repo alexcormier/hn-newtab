@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "HN New Tab",
+  "description": "Opens links in new tabs on Hacker News.",
+  "version": "1.0",
+  "author": "Alexandre Cormier",
+
+  "content_scripts": [
+    {
+      "matches": [ "https://news.ycombinator.com/*" ],
+      "css": [],
+      "js": [ "script.js" ]
+    }
+  ]
+}
